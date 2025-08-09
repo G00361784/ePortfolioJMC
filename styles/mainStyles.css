@@ -1,9 +1,13 @@
 /* --- Basic Setup & Variables --- */
 :root {
-    --primary-color: #2c3e50; /* Dark Blue */
-    --secondary-color: #3498db; /* Bright Blue */
-    --background-color: #ecf0f1; /* Light Grey */
-    --text-color: #34495e; /* Dark Grey */
+    --primary-color: #2c3e50;
+    /* Dark Blue */
+    --secondary-color: #3498db;
+    /* Bright Blue */
+    --background-color: #ecf0f1;
+    /* Light Grey */
+    --text-color: #34495e;
+    /* Dark Grey */
     --card-bg-color: #ffffff;
 }
 
@@ -78,7 +82,8 @@ main section {
 }
 
 /* --- Project Grid --- */
-.work-section h3, .about-section h3 {
+.work-section h3,
+.about-section h3 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 40px;
@@ -93,14 +98,14 @@ main section {
 .project-card {
     background-color: var(--card-bg-color);
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
 }
 
 .project-card img {
@@ -109,7 +114,8 @@ main section {
     display: block;
 }
 
-.project-card h4, .project-card p {
+.project-card h4,
+.project-card p {
     padding: 0 20px;
 }
 
@@ -134,8 +140,9 @@ main section {
     color: var(--secondary-color);
     font-weight: bold;
 }
-#newsFeedImage{
+
+/* #newsFeedImage{
     height: 20%;
     width:auto;
     margin-left: 30%;
-}
+} */
